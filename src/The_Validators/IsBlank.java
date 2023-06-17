@@ -11,7 +11,6 @@ public class IsBlank extends Thread{
         if(token.isBlank()){
             System.out.println("\033[31m");
             System.out.println("    Attempting to use only Blank spaces is not allowed!, sorry try again please");
-            System.exit(0);
         }
     }
 }
