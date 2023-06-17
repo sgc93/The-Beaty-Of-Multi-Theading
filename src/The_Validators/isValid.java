@@ -15,7 +15,6 @@ public class isValid extends Thread{
         Matcher matcher = pattern.matcher(token);
         if (!matcher.matches()) {
             System.out.println("your user name should contain only alphabets and underscore -> [a,z] + [A,Z] + _ ");
-            System.exit(0);
         }
     }
     
