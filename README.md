@@ -13,4 +13,4 @@ It is a concept in computer programming where multiple `thread`s (smaller units 
 
 > It contains multiple simple console apps that demonstrate the application and the behavior of Multi-Threading
 > It contains the following console apps:-
-> 1. [The_Validators](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> 1. [The_Validators](https://github.com/sgc93/The-Beauty-Of-Multi-Theading/tree/main/src/The_Validators).
