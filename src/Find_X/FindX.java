@@ -13,7 +13,13 @@ public class FindX implements Runnable {
 
     @Override
     public void run() {
-        if (discriminant > 0) {
+        if(a == 0){
+            double x = -c / b;
+            System.out.println("\033[032m");
+            System.out.println("The equation is a simple linear type and it has one real solution:");
+            System.out.println("x = " + x);
+            System.out.println("\033[0m");
+        } else if (discriminant > 0) {
             double x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
             double x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
             System.out.println("\033[032m");
