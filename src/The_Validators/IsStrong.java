@@ -16,11 +16,9 @@ public class IsStrong extends Thread{
         if(token.length() < 5){
             System.out.println("\033[31m");
             System.out.println("    Your username must have at least 5 containers!");
-            System.exit(0);
         } else if (!matcher.matches()) {
             System.out.println("\033[31m");
             System.out.println("Your username should contain at least one uppercase alphabet.");
-            System.exit(0);
         }
     }
 }
